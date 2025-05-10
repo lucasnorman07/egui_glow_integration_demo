@@ -1,0 +1,15 @@
+[package]
+name = "egui_glow_integration"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winit = "0.30.9"
+glutin = "0.32.0"
+egui = "0.31.1"
+egui-winit = "0.31.1"
+egui_glow = "0.31.1"
+glow = "0.16.0"
+cgmath = "0.18.0"
+bytemuck = "1.23.0"
+image = "0.25.6"

@@ -1,6 +1,6 @@
 # Egui demo with custom OpenGL graphics using Winit and Glow
 
-This is a simple demo application using winit that renders an Egui UI and a custom OpenGL cube with Glow. The UI has controls to the right for changing the cube's position, rotation and scale. Is not optimized with proper error handling, but it works :)
+This is a simple demo application using Winit that renders an Egui UI and a custom OpenGL cube with Glow. The UI has controls to the right for changing the cube's position, rotation and scale. It is not optimized with proper error handling, but it works :)
 
 ## Steps to run
 

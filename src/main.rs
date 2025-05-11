@@ -178,6 +178,12 @@ impl ApplicationHandler for App {
                     self.egui_context.as_ref().unwrap(),
                 );
 
+                // Handle the platform output (like copy/paste)
+                self.egui_state
+                    .as_mut()
+                    .unwrap()
+                    .handle_platform_output(window, full_output.platform_output);
+
                 // Get the triangles from egui's UI
                 let clipped_primitives = self
                     .egui_context
